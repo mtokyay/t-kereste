@@ -46,7 +46,7 @@ function AboutPage(props) {
         subtitle=""
         buttonText="iletişe geç "
         buttonColor="default"
-        buttonPath="/pricing"
+        buttonPath="/contact"
       />
     </>
   );

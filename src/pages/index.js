@@ -20,7 +20,7 @@ function IndexPage(props) {
         subtitle="Lambiriden Keresteye, Larexden Döşemeye kadar ahşaba dair aradığınız her şey tek adreste"
         buttonText="iletişime geç"
         buttonColor="default"
-        buttonPath="/pricing"
+        buttonPath="/contact"
       />
       <ContentCardsSection
         bgColor="default"
@@ -63,7 +63,7 @@ function IndexPage(props) {
         subtitle=""
         buttonText="iletişe geç "
         buttonColor="default"
-        buttonPath="/pricing"
+        buttonPath="/contact"
       />
     </>
   );

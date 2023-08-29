@@ -16,7 +16,7 @@ function UrunlerimizIthalFinlandiye2SinifLambriPage(props) {
         image="https://tokyaykereste.s3.eu-central-1.amazonaws.com/tokyay-kereste-ithal-finlandiye-2-sinif-lambri-web.jpg"
         buttonText="iletişime geç"
         buttonColor="primary"
-        buttonPath="/pricing"
+        buttonPath="/contact"
       />
     </>
   );

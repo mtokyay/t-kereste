@@ -16,7 +16,7 @@ function UrunlerimizEmprenyeliKerestePage(props) {
         image="https://tokyaykereste.s3.eu-central-1.amazonaws.com/emprenyeli-kereste-web.jpg"
         buttonText="İletişime geç"
         buttonColor="primary"
-        buttonPath="/pricing"
+        buttonPath="/contact"
       />
     </>
   );

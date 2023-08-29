@@ -95,7 +95,7 @@ function Footer(props) {
                       variant="overline"
                       className={classes.listItemTextHeader}
                     >
-                      Company
+                      Firmamız
                     </Typography>
                   </ListItem>
                   <Link href="/about" passHref={true}>
@@ -113,15 +113,13 @@ function Footer(props) {
                       button={true}
                       className={classes.listItem}
                     >
-                      <ListItemText>sss</ListItemText>
+                      <ListItemText>SSS</ListItemText>
                     </ListItem>
                   </Link>
-                  <Link href="pricing" passHref={true}>
+                  <Link href="/contact" passHref={true}>
                     <ListItem
                       component="a"
                       button={true}
-                      target="pricing"
-                      rel="noreferrer"
                       className={classes.listItem}
                     >
                       <ListItemText>İletişim</ListItemText>

@@ -16,7 +16,7 @@ function UrunlerimizInsaatlikKerestePage(props) {
         image="https://tokyaykereste.s3.eu-central-1.amazonaws.com/tokyay-kereste-insaatl%C4%B1k-kereste-web.jpg"
         buttonText="iletişime geç"
         buttonColor="primary"
-        buttonPath="/pricing"
+        buttonPath="/contact"
       />
     </>
   );
