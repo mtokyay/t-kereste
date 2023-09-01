@@ -17,7 +17,7 @@ function ClientsSection(props) {
       name: "unlu",
       image:
         "https://tokyaykereste.s3.eu-central-1.amazonaws.com/%C3%BCnl%C3%BC-boya-logo-kereste-web.svg",
-      width: "130px",
+      width: "90px",
     },
     {
       name: "remmers",
@@ -29,7 +29,7 @@ function ClientsSection(props) {
       name: "",
       image:
         "https://tokyaykereste.s3.eu-central-1.amazonaws.com/rothoblaas-web-logo.svg",
-      width: "180px",
+      width: "200px",
     },
   ];
 

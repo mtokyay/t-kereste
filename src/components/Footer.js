@@ -98,7 +98,7 @@ function Footer(props) {
                       Firmamız
                     </Typography>
                   </ListItem>
-                  <Link href="/about" passHref={true}>
+                  <Link href="/hakkimizda" passHref={true}>
                     <ListItem
                       component="a"
                       button={true}
@@ -107,7 +107,7 @@ function Footer(props) {
                       <ListItemText>Hakkımızda</ListItemText>
                     </ListItem>
                   </Link>
-                  <Link href="/faq" passHref={true}>
+                  <Link href="/sss" passHref={true}>
                     <ListItem
                       component="a"
                       button={true}
@@ -116,7 +116,7 @@ function Footer(props) {
                       <ListItemText>SSS</ListItemText>
                     </ListItem>
                   </Link>
-                  <Link href="/contact" passHref={true}>
+                  <Link href="/iletisim" passHref={true}>
                     <ListItem
                       component="a"
                       button={true}

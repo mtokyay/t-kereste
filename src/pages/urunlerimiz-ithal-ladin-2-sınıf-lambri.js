@@ -16,7 +16,7 @@ function UrunlerimizIthalLadin2SNFLambriPage(props) {
         image="https://tokyaykereste.s3.eu-central-1.amazonaws.com/ithal-ladin-2-s%C4%B1n%C4%B1f-lambrijpg.jpg"
         buttonText="iletişime geç"
         buttonColor="primary"
-        buttonPath="/contact"
+        buttonPath="/iletisim"
       />
     </>
   );

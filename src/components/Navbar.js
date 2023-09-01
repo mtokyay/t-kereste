@@ -80,17 +80,17 @@ function Navbar(props) {
                   ürünlerimiz
                 </Button>
               </Link>
-              <Link href="/about" passHref={true}>
+              <Link href="/hakkimizda" passHref={true}>
                 <Button component="a" color="inherit">
                   hakkımızda
                 </Button>
               </Link>
-              <Link href="/faq" passHref={true}>
+              <Link href="/sss" passHref={true}>
                 <Button component="a" color="inherit">
                   sss
                 </Button>
               </Link>
-              <Link href="/contact" passHref={true}>
+              <Link href="/iletisim" passHref={true}>
                 <Button component="a" color="inherit">
                   iletişim
                 </Button>
@@ -123,17 +123,17 @@ function Navbar(props) {
               <ListItemText>Ürünlerimiz</ListItemText>
             </ListItem>
           </Link>
-          <Link href="/about" passHref={true}>
+          <Link href="/hakkimizda" passHref={true}>
             <ListItem component="a" button={true}>
               <ListItemText>Hakkımızda</ListItemText>
             </ListItem>
           </Link>
-          <Link href="/faq" passHref={true}>
+          <Link href="/sss" passHref={true}>
             <ListItem component="a" button={true}>
               <ListItemText>SSS</ListItemText>
             </ListItem>
           </Link>
-          <Link href="/contact" passHref={true}>
+          <Link href="/iletisim" passHref={true}>
             <ListItem component="a" button={true}>
               <ListItemText>İletişim</ListItemText>
             </ListItem>
