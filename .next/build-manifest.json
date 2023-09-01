@@ -30,15 +30,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/contact": [
+    "/hakkimizda": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/contact.js"
+      "static/chunks/pages/hakkimizda.js"
     ],
-    "/faq": [
+    "/sss": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/faq.js"
+      "static/chunks/pages/sss.js"
     ]
   },
   "ampFirstPages": []
