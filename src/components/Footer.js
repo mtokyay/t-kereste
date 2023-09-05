@@ -125,6 +125,16 @@ function Footer(props) {
                       <ListItemText>İletişim</ListItemText>
                     </ListItem>
                   </Link>
+                  <Link href="https://tokyaykereste.com" passHref={true}>
+                    <ListItem
+                      component="a"
+                      button={true}
+                      target="_blank"
+                      className={classes.listItem}
+                    >
+                      <ListItemText>Ahşap Boya Market</ListItemText>
+                    </ListItem>
+                  </Link>
                 </List>
               </Grid>
               <Grid item={true} xs={12} md={4}>

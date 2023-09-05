@@ -1,8 +1,21 @@
 {
   "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/sss": "pages/sss.js",
-  "/hakkimizda": "pages/hakkimizda.js",
-  "/": "pages/index.js"
+  "/_error": "pages/_error.js",
+  "/api/newsletter": "pages/api/newsletter.js",
+  "/iletisim": "pages/iletisim.html",
+  "/sss": "pages/sss.html",
+  "/hakkimizda": "pages/hakkimizda.html",
+  "/": "pages/index.html",
+  "/urunlerimiz-insaatlik-kereste": "pages/urunlerimiz-insaatlik-kereste.html",
+  "/urunlerimiz-emprenyeli-kereste": "pages/urunlerimiz-emprenyeli-kereste.html",
+  "/urunlerimiz-ithal-larex-döseme": "pages/urunlerimiz-ithal-larex-döseme.html",
+  "/urunlerimiz-emprenyeli-lambri": "pages/urunlerimiz-emprenyeli-lambri.html",
+  "/urunlerimiz-ithal-larex-2-sinif-lambri": "pages/urunlerimiz-ithal-larex-2-sinif-lambri.html",
+  "/urunlerimiz": "pages/urunlerimiz.html",
+  "/urunlerimiz-ithal-larex-ekstra-lambri": "pages/urunlerimiz-ithal-larex-ekstra-lambri.html",
+  "/urunlerimiz-ithal-finlandiye-2sinif-lambri": "pages/urunlerimiz-ithal-finlandiye-2sinif-lambri.html",
+  "/urunlerimiz-ithal-ladin-2-sınıf-lambri": "pages/urunlerimiz-ithal-ladin-2-sınıf-lambri.html",
+  "/legal/[section]": "pages/legal/[section].js",
+  "/404": "pages/404.html"
 }

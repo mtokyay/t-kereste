@@ -94,6 +94,11 @@ function Navbar(props) {
                 <Button component="a" color="inherit">
                   iletişim
                 </Button>
+                </Link>
+              <Link href="https://tokyaykereste.com" passHref={true}>
+                <Button component="a" color="inherit" target="_blank">
+                  Ahşap Boya Market
+                </Button>
               </Link>
               <IconButton
                 color="inherit"
@@ -136,6 +141,11 @@ function Navbar(props) {
           <Link href="/iletisim" passHref={true}>
             <ListItem component="a" button={true}>
               <ListItemText>İletişim</ListItemText>
+            </ListItem>
+          </Link>
+          <Link href="https://tokyaykereste.com" passHref={true}>
+            <ListItem component="a" button={true} target="_blank">
+              <ListItemText>Ahşap Boya Market</ListItemText>
             </ListItem>
           </Link>
           <ListItem>
