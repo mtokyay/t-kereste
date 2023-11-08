@@ -36,6 +36,7 @@ function Meta(props) {
   // prettier-ignore
   return (
     <Head>
+      
       <title>{meta.title}</title>
       <meta content={meta.description} name="description" key="description" />
       {meta.domain && <link rel="canonical" href={`${meta.domain}${router.asPath}`} key="canonical" />}

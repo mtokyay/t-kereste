@@ -1,6 +1,7 @@
 import Analytics from "analytics";
 import googleAnalyticsPlugin from "@analytics/google-analytics";
 import Router from "next/router";
+import analyticsPluginGa from "@analytics/google-analytics";
 
 // Initialize analytics and plugins
 // Documentation: https://getanalytics.io
@@ -9,6 +10,9 @@ const analytics = Analytics({
   plugins: [
     googleAnalyticsPlugin({
       measurementIds: [process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID],
+    }),
+    analyticsPluginGa({
+      measurementIds: 'GTM-T6BQ4N46',
     }),
   ],
 });
