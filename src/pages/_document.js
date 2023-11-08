@@ -1,13 +1,13 @@
 import React from "react";
 import Document, { Html, Head, Main, NextScript } from "next/document";
-import Script from 'next/script';
-import Head from 'next/head';
+
 import { ServerStyleSheets } from "@material-ui/core/styles";
 
 export default class MyDocument extends Document {
   render() {
     return (
       <Html lang="en">
+        
         <Head>
           <link href="/favicon.ico" rel="shortcut icon" />
 
@@ -29,9 +29,11 @@ export default class MyDocument extends Document {
           />
         </Head>
         <body>
-          <Main />
-          <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T6BQ4N46"
+      
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T6BQ4N46"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+          <Main />
           <NextScript />
         </body>
       </Html>

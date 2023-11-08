@@ -1,113 +1,29 @@
 {
   "polyfillFiles": [
-    "static/chunks/polyfills-c67a75d1b6f99dc8.js"
+    "static/chunks/polyfills.js"
   ],
-  "devFiles": [],
-  "ampDevFiles": [],
+  "devFiles": [
+    "static/chunks/react-refresh.js"
+  ],
+  "ampDevFiles": [
+    "static/chunks/webpack.js",
+    "static/chunks/amp.js"
+  ],
   "lowPriorityFiles": [
-    "static/8KgE8nDSvNg8z6FsN4jvQ/_buildManifest.js",
-    "static/8KgE8nDSvNg8z6FsN4jvQ/_ssgManifest.js"
+    "static/development/_buildManifest.js",
+    "static/development/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
-    "/": [
-      "static/chunks/webpack-5752944655d749a0.js",
-      "static/chunks/framework-5f4595e5518b5600.js",
-      "static/chunks/main-f813a7991d8b5eee.js",
-      "static/chunks/593-0eb54d6e9019600e.js",
-      "static/chunks/pages/index-ee94f34ca22d9e2e.js"
-    ],
     "/_app": [
-      "static/chunks/webpack-5752944655d749a0.js",
-      "static/chunks/framework-5f4595e5518b5600.js",
-      "static/chunks/main-f813a7991d8b5eee.js",
-      "static/chunks/pages/_app-3c93eff99f3372d6.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/_app.js"
     ],
     "/_error": [
-      "static/chunks/webpack-5752944655d749a0.js",
-      "static/chunks/framework-5f4595e5518b5600.js",
-      "static/chunks/main-f813a7991d8b5eee.js",
-      "static/chunks/pages/_error-a4ba2246ff8fb532.js"
-    ],
-    "/hakkimizda": [
-      "static/chunks/webpack-5752944655d749a0.js",
-      "static/chunks/framework-5f4595e5518b5600.js",
-      "static/chunks/main-f813a7991d8b5eee.js",
-      "static/chunks/593-0eb54d6e9019600e.js",
-      "static/chunks/pages/hakkimizda-bc02816f6d2f202d.js"
-    ],
-    "/iletisim": [
-      "static/chunks/webpack-5752944655d749a0.js",
-      "static/chunks/framework-5f4595e5518b5600.js",
-      "static/chunks/main-f813a7991d8b5eee.js",
-      "static/chunks/189-a539a110fa2f5aba.js",
-      "static/chunks/pages/iletisim-9fba57000f5b9db4.js"
-    ],
-    "/legal/[section]": [
-      "static/chunks/webpack-5752944655d749a0.js",
-      "static/chunks/framework-5f4595e5518b5600.js",
-      "static/chunks/main-f813a7991d8b5eee.js",
-      "static/chunks/pages/legal/[section]-56406d6de54df239.js"
-    ],
-    "/sss": [
-      "static/chunks/webpack-5752944655d749a0.js",
-      "static/chunks/framework-5f4595e5518b5600.js",
-      "static/chunks/main-f813a7991d8b5eee.js",
-      "static/chunks/pages/sss-5e5d050d40cd1b83.js"
-    ],
-    "/urunlerimiz": [
-      "static/chunks/webpack-5752944655d749a0.js",
-      "static/chunks/framework-5f4595e5518b5600.js",
-      "static/chunks/main-f813a7991d8b5eee.js",
-      "static/chunks/pages/urunlerimiz-f207bea06347b86b.js"
-    ],
-    "/urunlerimiz-emprenyeli-kereste": [
-      "static/chunks/webpack-5752944655d749a0.js",
-      "static/chunks/framework-5f4595e5518b5600.js",
-      "static/chunks/main-f813a7991d8b5eee.js",
-      "static/chunks/pages/urunlerimiz-emprenyeli-kereste-0bc8252d50ae8164.js"
-    ],
-    "/urunlerimiz-emprenyeli-lambri": [
-      "static/chunks/webpack-5752944655d749a0.js",
-      "static/chunks/framework-5f4595e5518b5600.js",
-      "static/chunks/main-f813a7991d8b5eee.js",
-      "static/chunks/pages/urunlerimiz-emprenyeli-lambri-68bda78ea20be2af.js"
-    ],
-    "/urunlerimiz-insaatlik-kereste": [
-      "static/chunks/webpack-5752944655d749a0.js",
-      "static/chunks/framework-5f4595e5518b5600.js",
-      "static/chunks/main-f813a7991d8b5eee.js",
-      "static/chunks/pages/urunlerimiz-insaatlik-kereste-035a33fc54f62fec.js"
-    ],
-    "/urunlerimiz-ithal-finlandiye-2sinif-lambri": [
-      "static/chunks/webpack-5752944655d749a0.js",
-      "static/chunks/framework-5f4595e5518b5600.js",
-      "static/chunks/main-f813a7991d8b5eee.js",
-      "static/chunks/pages/urunlerimiz-ithal-finlandiye-2sinif-lambri-40b5775c99e8ead6.js"
-    ],
-    "/urunlerimiz-ithal-ladin-2-sınıf-lambri": [
-      "static/chunks/webpack-5752944655d749a0.js",
-      "static/chunks/framework-5f4595e5518b5600.js",
-      "static/chunks/main-f813a7991d8b5eee.js",
-      "static/chunks/pages/urunlerimiz-ithal-ladin-2-sınıf-lambri-44fcaa8605705fde.js"
-    ],
-    "/urunlerimiz-ithal-larex-2-sinif-lambri": [
-      "static/chunks/webpack-5752944655d749a0.js",
-      "static/chunks/framework-5f4595e5518b5600.js",
-      "static/chunks/main-f813a7991d8b5eee.js",
-      "static/chunks/pages/urunlerimiz-ithal-larex-2-sinif-lambri-93af60a6cde7a838.js"
-    ],
-    "/urunlerimiz-ithal-larex-döseme": [
-      "static/chunks/webpack-5752944655d749a0.js",
-      "static/chunks/framework-5f4595e5518b5600.js",
-      "static/chunks/main-f813a7991d8b5eee.js",
-      "static/chunks/pages/urunlerimiz-ithal-larex-döseme-941aa4584e41d196.js"
-    ],
-    "/urunlerimiz-ithal-larex-ekstra-lambri": [
-      "static/chunks/webpack-5752944655d749a0.js",
-      "static/chunks/framework-5f4595e5518b5600.js",
-      "static/chunks/main-f813a7991d8b5eee.js",
-      "static/chunks/pages/urunlerimiz-ithal-larex-ekstra-lambri-86a04b1bb7ff0d67.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/_error.js"
     ]
   },
   "ampFirstPages": []

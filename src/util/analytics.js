@@ -14,6 +14,7 @@ const analytics = Analytics({
     analyticsPluginGa({
       measurementIds: 'GTM-T6BQ4N46',
     }),
+
   ],
 });
 
